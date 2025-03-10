@@ -72,15 +72,15 @@ MAE (Mean Absolute Error)
 R² Score
 
 ## 🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Scikit-Learn
-Matplotlib & Seaborn
-XGBoost (optional for advanced modeling)
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Scikit-Learn**
+- **Matplotlib & Seaborn**
+- **XGBoost** 
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
 ## 👤 Author
-Shalu Yadav
+**Shalu Yadav**
