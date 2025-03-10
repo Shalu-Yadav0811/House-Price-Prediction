@@ -33,7 +33,7 @@ House-Price-Prediction/ │-- data/ │ ├── california_housing.csv # Datas
 │-- requirements.txt
 
 
-### ⚙️  Installation  
+## ⚙️  Installation  
 To set up the project locally, follow these steps:  
 
 ### 1️⃣ Clone the Repository  
@@ -54,24 +54,24 @@ venv\Scripts\activate     # Windows
 ``` bash
 pip install -r requirements.txt
 ```
-### 🚀 Usage
+## 🚀 Usage
 - Exploratory Data Analysis (EDA)
 Run the data_analysis.ipynb notebook to explore the dataset, visualize correlations, and gain insights.
 
-### Model Training
+## 🏗️ Model Training
 Use train.py or model_training.ipynb to train a Machine Learning model like Random Forest or XGBoost.
 
-### Evaluation
+## 📈 Evaluation
 After training, evaluate the model using evaluate.py or analyze performance metrics in the Jupyter notebook.
 
-### 🎯 Results
+## 🎯 Results
 The trained model predicts house prices based on given features, evaluated using metrics such as:
 
 RMSE (Root Mean Squared Error)
 MAE (Mean Absolute Error)
 R² Score
 
-### 🛠️ Technologies Used
+## 🛠️ Technologies Used
 Python
 Pandas
 NumPy
@@ -79,8 +79,8 @@ Scikit-Learn
 Matplotlib & Seaborn
 XGBoost (optional for advanced modeling)
 
-### 🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
-### 👤 Author
+## 👤 Author
 Shalu Yadav
