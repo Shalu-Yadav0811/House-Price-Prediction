@@ -1,9 +1,9 @@
 #  House Price Prediction  
 
-##  Overview  
+## 📌 Overview  
 This project aims to analyze the **California Housing Dataset** and build a predictive model for estimating house prices based on various features. The dataset, sourced from **Scikit-Learn**, includes details like median income, house age, and location-based attributes.  
 
-##  Dataset Features  
+## 🗂️ Dataset Features  
 The dataset consists of the following features:  
 - **MedInc**: Median income in the block  
 - **HouseAge**: Median age of houses in the block  
@@ -14,7 +14,7 @@ The dataset consists of the following features:
 - **Latitude**: Block latitude  
 - **Longitude**: Block longitude  
 
-##  Project Structure 
+## 📂 Project Structure 
 
 House-Price-Prediction/ │-- data/ │ ├── california_housing.csv # Dataset
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 - Exploratory Data Analysis (EDA)
 Run the data_analysis.ipynb notebook to explore the dataset, visualize correlations, and gain insights.
 
-## 🏗🤖 Model Training
+## 🤖 Model Training
 Use train.py or model_training.ipynb to train a Machine Learning model like Random Forest or XGBoost.
 
 ## 📈 Evaluation
