@@ -1,101 +1,79 @@
-# House-Price-Prediction
-Overview
+#  House Price Prediction  
 
-This project aims to analyze the California housing dataset and build a predictive model for estimating house prices based on various features. The dataset is sourced from Scikit-Learn and contains information such as median income, house age, and location-based features.
+##  Overview  
+This project aims to analyze the **California Housing Dataset** and build a predictive model for estimating house prices based on various features. The dataset, sourced from **Scikit-Learn**, includes details like median income, house age, and location-based attributes.  
 
-Dataset
+##  Dataset Features  
+The dataset consists of the following features:  
+- **MedInc**: Median income in the block  
+- **HouseAge**: Median age of houses in the block  
+- **AveRooms**: Average number of rooms per household  
+- **AveBedrms**: Average number of bedrooms per household  
+- **Population**: Block population  
+- **AveOccup**: Average number of household members  
+- **Latitude**: Block latitude  
+- **Longitude**: Block longitude  
 
-The California housing dataset contains the following features:
+##  Project Structure 
 
-MedInc: Median income in the block.
-
-HouseAge: Median age of houses in the block.
-
-AveRooms: Average number of rooms per household.
-
-AveBedrms: Average number of bedrooms per household.
-
-Population: Block population.
-
-AveOccup: Average number of household members.
-
-Latitude: Block latitude.
-
-Longitude: Block longitude.
-
-Project Structure
-
-California-Housing-Price-Prediction/
-│-- data/
-│   ├── california_housing.csv  # Dataset
-│-- notebooks/
-│   ├── data_analysis.ipynb      # Exploratory Data Analysis
-│   ├── model_training.ipynb     # Model Training
-│-- src/
-│   ├── preprocess.py            # Data preprocessing functions
-│   ├── train.py                 # Model training script
-│   ├── evaluate.py              # Model evaluation script
+House-Price-Prediction/ │-- data/ │ ├── california_housing.csv # Dataset
+│-- notebooks/ │ ├── data_analysis.ipynb # Exploratory Data Analysis
+│ ├── model_training.ipynb # Model Training
+│-- src/ │ ├── preprocess.py # Data preprocessing functions
+│ ├── train.py # Model training script
+│ ├── evaluate.py # Model evaluation script
 │-- README.md
 │-- requirements.txt
 
-Installation
 
-To set up the project locally, follow these steps:
+###⚙️  Installation  
+To set up the project locally, follow these steps:  
 
-Clone the repository:
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/House-Price-Prediction.git  
+cd House-Price-Prediction
+```
 
-git clone https://github.com/yourusername/California-Housing-Price-Prediction.git
-
-Navigate to the project directory:
-
-cd California-Housing-Price-Prediction
-
-Create a virtual environment (optional but recommended):
-
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
-
-Install dependencies:
-
+### 2️⃣ Create a Virtual Environment (Optional but Recommended)
+``` bash
+python -m venv venv  
+# Activate the virtual environment  
+source venv/bin/activate  # macOS/Linux  
+venv\Scripts\activate     # Windows
+```
+ 
+### 3️⃣ Install Dependencies
+``` bash
 pip install -r requirements.txt
-
-Usage
-
-Exploratory Data Analysis (EDA)
-
+```
+###🚀 Usage
+- Exploratory Data Analysis (EDA)
 Run the data_analysis.ipynb notebook to explore the dataset, visualize correlations, and gain insights.
 
-Model Training
+### Model Training
+Use train.py or model_training.ipynb to train a Machine Learning model like Random Forest or XGBoost.
 
-Use train.py or model_training.ipynb to train a machine learning model such as Random Forest or XGBoost.
+### Evaluation
+After training, evaluate the model using evaluate.py or analyze performance metrics in the Jupyter notebook.
 
-Evaluation
+###🎯 Results
+The trained model predicts house prices based on given features, evaluated using metrics such as:
 
-After training, evaluate the model using evaluate.py or directly in the Jupyter notebook.
+RMSE (Root Mean Squared Error)
+MAE (Mean Absolute Error)
+R² Score
 
-Results
-
-The trained model predicts house prices based on features, with evaluation metrics such as RMSE, MAE, and R² score.
-
-Technologies Used
-
+###🛠️ Technologies Used
 Python
-
 Pandas
-
 NumPy
-
 Scikit-Learn
-
 Matplotlib & Seaborn
+XGBoost (optional for advanced modeling)
 
-XGBoost (Optional for advanced modeling)
+###🤝 Contributing
+Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
-Contributing
-
-Feel free to fork this repository and contribute improvements. Pull requests are welcome!
-
-Author
-
-Shalu yadav
+###👤 Author
+Shalu Yadav
