@@ -58,7 +58,7 @@ pip install -r requirements.txt
 - Exploratory Data Analysis (EDA)
 Run the data_analysis.ipynb notebook to explore the dataset, visualize correlations, and gain insights.
 
-## 🏗️ Model Training
+## 🏗🤖 Model Training
 Use train.py or model_training.ipynb to train a Machine Learning model like Random Forest or XGBoost.
 
 ## 📈 Evaluation
